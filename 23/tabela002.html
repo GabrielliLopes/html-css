@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2){
+            background-color: lightgray;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Populaçao das Inidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>São Paulo</th>
+                <th>45 919 049</th>
+            </tr>
+            <tr>
+                <th>Minas Gerais</th>
+                <th>21 168 791</th>
+            </tr>
+            <tr>
+                <th>Rio de Janeiro</th>
+                <th>17 264 943</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>84.352.783</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto aspernatur enim delectus sed, ab officia eos perferendis quod odio, voluptatibus dignissimos. Omnis aut sapiente, sunt illo voluptatum commodi voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minus ducimus totam debitis atque temporibus fuga sed nulla! Perspiciatis alias asperiores itaque delectus temporibus dicta eos ad excepturi minima dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus, et ex rerum maxime voluptate voluptas id quas repudiandae exercitationem commodi similique dolorum quos in autem voluptatem odio debitis vitae?</p>
+</body>
+</html>
