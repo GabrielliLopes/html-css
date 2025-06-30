@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ipsa facilis ut. Autem inventore expedita facere alias corrupti non obcaecati omnis rerum minima numquam, saepe est ut, commodi, deleniti quas?</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consectetur consequuntur nobis labore natus accusamus excepturi a sequi! Corrupti blanditiis aspernatur voluptatum minima repudiandae nobis perspiciatis obcaecati ea enim quia! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ratione debitis aspernatur, animi, reiciendis odit provident quam nobis dolore id atque consequuntur aliquam mollitia voluptatibus quod, architecto sit exercitationem veritatis.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opçoes acima"</h1>
+        <p>Infelizmente seu navegador não é compatível com isso. </p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, nesciunt ducimus? Repellat ullam quo, voluptatum fugit laboriosam atque asperiores sequi cupiditate. Maxime, architecto omnis officia placeat delectus voluptas excepturi aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, temporibus saepe tempore harum sed rem accusantium excepturi. Ea minima quas, sapiente omnis possimus, aperiam quasi accusamus eaque, culpa dolores cupiditate?</p>
+</body>
+</html>
